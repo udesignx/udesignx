@@ -32,14 +32,14 @@
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
+  background-color: #41285a;
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
 }
 .value-multiplier {
   margin-bottom: .5rem;
-  color: #11DFC7;
+  color: #DE5F5D;
 }
 .value-heading {
   margin-bottom: .3rem;
@@ -58,7 +58,7 @@
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  background-image: url('../images/values-bg.jpg');
+  background-color: #41285a;
   background-size: cover;
   color: #fff;
 }
@@ -68,7 +68,7 @@
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
-  .section {
+  .section {eleven
     padding: 12rem 0 11rem;
   }
   .hero {
@@ -148,4 +148,21 @@
     top: -14rem;
     max-height: 570px;
   }
+}
+
+/* slogan
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.slogan{
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* logo
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  width: 140px;
 }
