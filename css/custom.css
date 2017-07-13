@@ -82,7 +82,8 @@
     right: 3rem;
     max-height: 362px;
     z-index: 3;
-  }
+  }text-align: center;
+  margin-top: 2em;
   .phone + .phone {
     top: -6rem;
     display: block;
@@ -165,4 +166,10 @@
   margin-right: auto;
   margin-top: 2em;
   width: 140px;
+}
+
+/* fotografia
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.fotografia{
+  width: 100%;
 }
