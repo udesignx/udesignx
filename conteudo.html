@@ -20,38 +20,30 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/animate.css">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-<nav class="menu-navegacao">
-    <ul>
-        <li><a href="#">Logo</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li>
-            <a href="#udesignx">UDesignX</a>
-                <div class="dropdown-content">
-                  <a href="#">Design de Interface</a>
-                  <a href="#">Design Web</a>
-                  <a href="#">Design Mobile</a>
-                </div>
-        </li>
-        <li><a href="#ufotox">UFotoX</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li class="menu-navegacao-right"><a href="#" class="fa fa-facebook" alt="Facebook"></a></li>
-        <li class="menu-navegacao-right"><a href="#" class="fa fa-instagram" alt="Instagram"></a></li>
-        <li class="menu-navegacao-right"><a href="#" class="fa fa-linkedin" alt="Linkedin"></a></li>
-        <li class="menu-navegacao-right"><a href="#" class="fa fa-twitter" alt="Twitter"></a></li>
-    </ul>
-
-</nav>
-
+    
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">  
+    <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Fechar &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Logo</a>
+        <a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+        <a href="#udesignx" class="w3-bar-item w3-button">UDesignX</a>
+        <a href="#ufotox" class="w3-bar-item w3-button">UFotoX</a>
+        <a href="#contato" class="w3-bar-item w3-button">Contato</a>
+</div> 
+    
+<!-- Page Content -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container">
+    <h1>My Page</h1>
+  </div>
+</div>
 <main>
     <h1>Você finalmente encontrou a agência digital que estava procuarando.</h1>
     
@@ -77,7 +69,7 @@
         <h1>Design de Interface</h1>
         <img src="images/placeholder.png">
         <p>Desenvolvemos as melhores interfaces para o seu tipo de negócio visando a melhor experiência de usuário. Projetamos interfaces atualizadas e tecnológicas para sua empresa estar sempre à frente!</p>
-        
+        </div>
         <nav><a>Linkedin</a>
             <ul>
                 <li>Benchmark</li>
@@ -88,7 +80,7 @@
             </ul>
         </nav>
         <h2>Etapas do Processo</h2>
-    </article>
+    </article></div>
     fotografia
     <article>
         <h1>Design Web</h1>
@@ -165,6 +157,7 @@
             <h1>Pets</h1>
         </div>  
 </main>
+    
 Pets
 <footer id="contato">
    <img alt="Contato" src="images/placeholder.png"> 
@@ -185,4 +178,14 @@ Pets
             <input name="Enviar" type="submit">
         </form>
 </footer>
+
+    <script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
 </body>
