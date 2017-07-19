@@ -7,3 +7,37 @@
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
 }
+
+.img-sobre{
+    background-image: url('../images/background-sobre.jpg');
+}
+.roxo-menu{
+    color:white;
+    background-color: transparent;
+    font-size: x-large;
+}
+.bg-roxo{
+    background-color: #3e2556;
+    color:white;
+}
+
+.txt-roxo{
+    color:#3e2556;
+}
+a:hover{
+    color:#3e2556;
+}
+a{
+    text-decoration: none;
+}
+.txt-ux{
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+    color:#ce6a06;
+}
+.question-ux{
+    font-size: 2.3em;
+}
+.txt-laranja{
+    color:#ce6a06;
+}
