@@ -173,3 +173,38 @@
 .fotografia{
   width: 100%;
 }
+
+
+/* menu-navegacao
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menu-navegacao{
+    position: fixed;
+    width: 100%;
+    background-color: #41285a;
+}
+
+menu-navegacao, ul{    
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+menu-navegacao, li{    
+float: left;
+}
+menu-navegacao, li a {    
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+menu-navegacao, li a:hover { 
+    color: red;
+}
+.menu-navegacao-right{
+    float: right;
+}
