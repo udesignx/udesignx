@@ -26,24 +26,20 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-    
 <!-- Sidebar -->
-<div class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">  
+<div class="w3-sidebar w3-bar-block w3-center w3-xxxlarge" style="display:none" id="mySidebar">  
     <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Fechar &times;</button>
-        <a href="#" class="w3-bar-item w3-button">Logo</a>
-        <a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
-        <a href="#udesignx" class="w3-bar-item w3-button">UDesignX</a>
-        <a href="#ufotox" class="w3-bar-item w3-button">UFotoX</a>
-        <a href="#contato" class="w3-bar-item w3-button">Contato</a>
+        <a onclick="w3_close()" href="#" class="w3-bar-item w3-button">Logo</a>
+        <a onclick="w3_close()" href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+        <a onclick="w3_close()" href="#udesignx" class="w3-bar-item w3-button">UDesignX</a>
+        <a onclick="w3_close()" href="#ufotox" class="w3-bar-item w3-button">UFotoX</a>
+        <a onclick="w3_close()" href="#contato" class="w3-bar-item w3-button">Contato</a>
 </div> 
-    
 <!-- Page Content -->
 <div class="w3-teal">
-  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
-  <div class="w3-container">
-    <h1>My Page</h1>
-  </div>
+  <button class="w3-button w3-teal w3-xlarge w3-right" onclick="w3_open()">Menu ☰</button>
 </div>
+<div class="w3-container">
 <main>
     <h1>Você finalmente encontrou a agência digital que estava procuarando.</h1>
     
@@ -69,7 +65,6 @@
         <h1>Design de Interface</h1>
         <img src="images/placeholder.png">
         <p>Desenvolvemos as melhores interfaces para o seu tipo de negócio visando a melhor experiência de usuário. Projetamos interfaces atualizadas e tecnológicas para sua empresa estar sempre à frente!</p>
-        </div>
         <nav><a>Linkedin</a>
             <ul>
                 <li>Benchmark</li>
@@ -80,7 +75,7 @@
             </ul>
         </nav>
         <h2>Etapas do Processo</h2>
-    </article></div>
+    </article>
     fotografia
     <article>
         <h1>Design Web</h1>
@@ -178,7 +173,7 @@ Pets
             <input name="Enviar" type="submit">
         </form>
 </footer>
-
+</div>
     <script>
     function w3_open() {
         document.getElementById("mySidebar").style.width = "100%";
