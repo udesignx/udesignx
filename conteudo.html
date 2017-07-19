@@ -21,6 +21,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -28,12 +29,18 @@
 <body>
 <!-- Sidebar -->
 <div class="w3-sidebar w3-bar-block w3-center w3-xxxlarge" style="display:none" id="mySidebar">  
-    <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Fechar &times;</button>
+    <div class="w3-right"><a onclick="w3_close()" class="w3-bar-item w3-button fa fa-close"></a></div>
         <a onclick="w3_close()" href="#" class="w3-bar-item w3-button">Logo</a>
         <a onclick="w3_close()" href="#sobre" class="w3-bar-item w3-button">Sobre</a>
         <a onclick="w3_close()" href="#udesignx" class="w3-bar-item w3-button">UDesignX</a>
         <a onclick="w3_close()" href="#ufotox" class="w3-bar-item w3-button">UFotoX</a>
         <a onclick="w3_close()" href="#contato" class="w3-bar-item w3-button">Contato</a>
+        <div>
+            <a href="#" class="w3-button fa fa-facebook-official"></a>
+            <a href="#" class="w3-button fa fa-instagram"></a>
+            <a href="#" class="w3-button fa fa-twitter"></a>
+            <a href="#" class="w3-button fa fa-linkedin-square"></a>
+        </div>
 </div> 
 <!-- Page Content -->
 <div class="w3-teal">
@@ -173,6 +180,7 @@ Pets
             <input name="Enviar" type="submit">
         </form>
 </footer>
+    
 </div>
     <script>
     function w3_open() {
