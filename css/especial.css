@@ -44,7 +44,12 @@ a{
 .img-udesignx{
     background-image: url('../images/img-pc-grad.jpg');
     color:white;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.txt-fazemos{
+    font-family: 'Monoton', cursive;
+    color:#ce6a06;
+    
 }
