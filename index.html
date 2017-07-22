@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>UDesignX | Agência Digital - Campinas - SP</title>
+<title>UDesignX | Agência de design e desenvolvimento web | Campinas | São Paulo</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="images/favicon-v2.png">
@@ -33,13 +33,13 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("images/background-sobre.jpg");
+    background-image: url("images/img-pc-grad.jpg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("images/background-sobre.jpg");
+    background-image: url("images/contato-dog-roxo.jpg");
     min-height: 400px;
 }
 
@@ -61,20 +61,18 @@ body, html {
     <a class="w3-bar-item w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">Menu 
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#sobre" class="w3-bar-item w3-hide-small">Sobre</a>
-    <a href="#udesignx" class="w3-bar-item w3-hide-small">UDesignX</a>
+    <a href="#home" class="w3-bar-item w3-hide-small">UDesignX</a>
+    <a href="#udesignx" class="w3-bar-item w3-hide-small">Sobre</a>
     <a href="#servico" class="w3-bar-item w3-hide-small">Serviços</a>
-    <a href="#contact" class="w3-bar-item w3-hide-small">UFotoX</a>
     <a href="#contact" class="w3-bar-item w3-hide-small">Contato</a>
 
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-xxlarge w3-center w3-bar-block bg-roxo w3-hide w3-hide-large w3-hide-medium">
-    <a href="#sobre" class="w3-bar-item" onclick="toggleFunction()">Sobre</a>
-    <a href="#udesignx" class="w3-bar-item" onclick="toggleFunction()">UDesignX</a>
+    <a href="#home" class="w3-bar-item" onclick="toggleFunction()">UDesignX</a>
+    <a href="#udesignx" class="w3-bar-item" onclick="toggleFunction()">Sobre</a>
     <a href="#servico" class="w3-bar-item" onclick="toggleFunction()">Serviços</a>
-    <a href="#contact" class="w3-bar-item" onclick="toggleFunction()">UFotoX</a>
     <a href="#contact" class="w3-bar-item" onclick="toggleFunction()">Contato</a>
         <div>
             <a href="https://www.facebook.com/udesignx" onclick="toggleFunction()" class="w3-button fa fa-facebook-official"></a>
@@ -89,32 +87,37 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="w3-image bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-        <img class="w3-image w3-center" src="images/Logotipo.png">
+        <img class="w3-image w3-center" src="images/Logotipo-v2.png">
   </div>
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64 w3-xxxlarge" id="sobre">
-  <p class="w3-center">Você finalmente encontrou a <font color="#3e2556">agência digital</font> que estava procurando.</p>
+<div class="w3-content w3-container" id="about">
+  <h1 class="w3-center txt-roxo">Sobre nós</h1>
+  <h2 class="w3-center txt-laranja"><em>we love design <i class="fa fa-heart" aria-hidden="true"></i></em></h2>
+  <h3 class="w3-center">A UDesignX é uma agência digital, que tem como foco principal promover o melhor reconhecimento da sua empresa.
+    Trabalhamos para oferecer soluções tecnológicas e entregar o melhor resultado possível.</h3>
+  <div class="w3-row">
+    <div class="w3-half w3-container w3-center">
+        <p><font class="txt-roxo w3-xxxlarge">Você sabe <br>o que é</font><br> <font class="txt-ux">UX</font><font class="question-ux txt-roxo">?</font></p>
+
+    </div> 
+    <div class="w3-half w3-container">
+        <p class="txt-ux-right"><font class="txt-laranja">User eXperience</font> não se resume a um layout bonito, mas sim um estudo do comportamento do usuário ao utilizar um produto ou serviço.</p>
+    </div>
+  </div>
 </div>
 
-<!-- Conteudo UX -->    
-<div class="w3-row bg-roxo w3-container">
-    <div class="w3-half w3-container w3-jumbo">
-        <p class="w3-center">Você sabe <br>o que é<br><font class="txt-ux">UX</font><font class="question-ux">?</font></p>
-    </div>
-    <div class="w3-half w3-container w3-xxxlarge">
-        <p><font class="txt-laranja">User eXperience</font> não se resume a um layout bonito, mas sim um estudo do comportamento do usuário ao utilizar um produto ou serviço.</p>
-    </div>
-</div>    
-
+    
+    
+    
 <!-- Objetivo -->
-<div class="w3-content w3-container w3-padding-64 w3-xxxlarge" id="sobre">
-  <p class="w3-center">Nosso objetivo vai além de prestar um serviço.<br> <font color="#3e2556">Para nós é importante relações duradouras com nossos clientes.</font> A confiança e a credibilidade são a base de nossos negócios.</p>
+<div class="w3-content w3-container w3-xxxlarge" id="sobre">
+  <h3>Nosso objetivo vai além de prestar um serviço. <font color="#3e2556">Para nós é importante relações duradouras com nossos clientes.</font> A confiança e a credibilidade são a base de nossos negócios.</h3>
 </div>    
 
-<!-- Serviços 1-->
-<div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-xxlarge">
+<!-- Icones-->
+<div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-xlarge">
   <div class="w3-quarter w3-section">
     <i class="fa fa-user-circle-o" aria-hidden="true"></i><br>Presença Online
   </div>
@@ -128,33 +131,22 @@ body, html {
     <i class="fa fa-hand-peace-o" aria-hidden="true"></i><br>Social
   </div>
 </div>
-
-<!-- UDesignX -->
-<div class="w3-row img-udesignx w3-padding-64" id="udesignx">
-    <p class="w3-xxxlarge w3-center">A UDesignX é o principal segmento da nossa empresa.</p>
-    <div class="w3-half w3-center">
-        <br><p><font class="txt-fazemos w3-hide-medium w3-hide-large w3-xxxlarge">O que<br> fazemos ?</font></p>
-        <p><font class="txt-fazemos w3-jumbo w3-hide-small">O que<br> fazemos ?</font></p>
-    </div>
-
-   <div class="w3-half w3-container w3-xxxlarge">
-       <ul> 
-       <li>Design de Interface</li>
-        <li>Design Web</li>
-        <li>Gestação de Redes Sociais</li>
-        </ul>
+    
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="w3-row bgimg-2 w3-display-container w3-opacity-min w3-padding-64 w3-text-white" id="servico">
+    <div class="w3-display-middle">
+        <span class="w3-xxxlarge w3-text-white w3-wide">Serviços</span>
     </div>
 </div>
-
 <!-- Serviços 2-->
-<div class="w3-row-padding" id="servico">
+<div class="w3-row-padding">
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-card-2 w3-hover-shadow">
           <li class="bg-roxo w3-xxlarge w3-padding-32">Design de <font class="txt-laranja">Interface</font></li>
         <li class="w3-padding-16 w3-xlarge">Criação de layout - Aplicativos mobile</li>
         <li class="w3-padding-16 w3-xlarge">Criação de layout - Website responsivos</li>
         <li class="w3-padding-16 w3-xlarge">Protótipo no Photoshop</li>
-        <li class="w3-light-grey w3-padding-24 w3-xlarge">Projetamos interfaces atualizadas e tecnológicas para sua empresa estar sempre à frente!</li>
+        <li class="w3-padding-24 w3-xlarge txt-roxo-panel">Projetamos interfaces atualizadas e tecnológicas para sua empresa estar sempre à frente!</li>
       </ul>
     </div>
     <div class="w3-third w3-section">
@@ -163,7 +155,7 @@ body, html {
         <li class="w3-padding-16 w3-xlarge">Criação de Website Responsivos</li>
         <li class="w3-padding-16 w3-xlarge">Atualização de Conteúdo do Site</li>
         <li class="w3-padding-16 w3-xlarge">Atualização de Estrutura do Site</li>
-        <li class="w3-light-grey w3-padding-24 w3-xlarge">Trabalhamos com sites responsivos aplicando conceitos de UX para o seu tipo de cliente.</li>
+        <li class="w3-padding-24 w3-xlarge txt-roxo-panel">Trabalhamos com sites responsivos aplicando conceitos de UX para o seu tipo de cliente.</li>
       </ul>
     </div>
     <div class="w3-third w3-section">
@@ -172,124 +164,61 @@ body, html {
         <li class="w3-padding-16 w3-xlarge">Criação de Apps para smartphones</li>
         <li class="w3-padding-16 w3-xlarge">iOS, Android, Windows Phone</li>
           <li class="w3-padding-16 w3-xlarge">Seu App no Google Play ou Apple Store</li>
-        <li class="w3-light-grey w3-padding-24 w3-xlarge">Desenvolvemos aplicativos usando interação e usabilidade específicos para a sua empresa, da forma que você deseja.</li>
+        <li class="w3-padding-24 w3-xlarge txt-roxo-panel">Desenvolvemos aplicativos usando interação e usabilidade específicos para a sua empresa, da forma que você deseja.</li>
       </ul>
     </div>
   </div>   
-    
-    
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="w3-row bgimg-2 w3-display-container w3-opacity-min w3-padding-64 w3-text-white">
-    
-</div>
 
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div> 
-      
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-white w3-wide">Contato</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+  <h3 class="w3-center txt-roxo">Gostariamos muito do seu feedback! <i class="fa fa-heart" aria-hidden="true"></i></h3>
 
   <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+
+    <div class="w3-col m12 w3-panel">
+      <div class="w3-large w3-col m4 w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Campinas, SP<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: fala@udesignx.com<br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+    <div class="w3-col m8">
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
           </div>
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
           </div>
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Message">
+        <button class="w3-button bg-roxo w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar Mensagem
         </button>
       </form>
+        </div>    
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+<footer class="w3-center bg-roxo w3-padding-64 w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Volte para o topo</a>
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Feito com muito amor <a href="https://www.udesignx.com" title="Udesignx.com" target="_blank" class="w3-hover-text-green">UDesignX </a><i class="fa fa-heart txt-red" aria-hidden="true"></i></p>
 </footer>
  
 <!-- Add Google Maps -->
