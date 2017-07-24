@@ -65,3 +65,6 @@ a{
 .txt-red{
     color:#d14836;
 }
+.txt-social a:hover{
+    color:transparent;
+}
