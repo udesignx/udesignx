@@ -1,2 +1,2 @@
 # udesignx
-a small company lead page
+a small company leading page
